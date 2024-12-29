@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "pnpm --prefix client start",
+    "client:dev": "pnpm --prefix client dev",
+    "start:all": "concurrently \"pnpm dev\" \"pnpm client:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.1",
+    "nodemon": "^3.1.9"
+  }
+}

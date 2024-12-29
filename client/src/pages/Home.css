@@ -1,0 +1,82 @@
+.home-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.task-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.task-actions {
+  margin-top: 15px;
+}
+
+.task-actions .view-btn,
+.task-actions .edit-btn {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task-actions .view-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-actions .view-btn:hover {
+  background-color: #0056b3;
+}
+
+.task-actions .edit-btn {
+  background-color: #f39c12;
+  color: white;
+}
+
+.task-actions .edit-btn:hover {
+  background-color: #e67e22;
+}
+
+.no-tasks-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.no-tasks-message a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.no-tasks-message a:hover {
+  color: #0056b3;
+}
